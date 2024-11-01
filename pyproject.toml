@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tsp_solver"
+version = "0.1.0"
+description = "A Travelling Salesman Problem solver "
+authors = ["Imen Khalil"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+deap = "^1.3.1"  
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
